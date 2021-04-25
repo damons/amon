@@ -4,10 +4,10 @@ Monitor shell script for snarkOS
 ## Usage
 
 ```
-$ ./amon.sh 10.0.1.13 15
+$ ./amon.sh 10.0.1.13 3030 15
 ```
 
-Where the first argument (`10.0.1.13`) is the IP of the node and second argument,  `15` , is the number of seconds between refresh.
+Where the first argument (`10.0.1.13`) is the IP of the node and second argument, `3030` is the port of the Aleo RPC server, and the third argument,  `15` , is the number of seconds between refresh.
 
 Sample output:
 
