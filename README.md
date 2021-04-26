@@ -1,6 +1,26 @@
 # amon
 Monitor shell script for snarkOS
 
+## Dependencies
+
+Uses `zsh`.
+
+Also requires `jq` to query `json` structures to extract their contents.
+Brew info on `jq`:
+
+```
+jq: stable 1.6 (bottled), HEAD
+Lightweight and flexible command-line JSON processor
+https://stedolan.github.io/jq/
+```
+
+On OS X use:
+```
+$ brew install jq
+```
+
+There's likely an `apt` equivalent on Linux, but I haven't tried it there.
+
 ## Usage
 
 ```
