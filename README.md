@@ -23,6 +23,12 @@ $ brew install jq
 
 There's likely an `apt` equivalent on Linux, but I haven't tried it there.
 
+## Installation
+
+```
+$ git clone https://github.com/damons/amon
+```
+
 ## Usage
 
 ```
