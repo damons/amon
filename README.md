@@ -1,5 +1,7 @@
 # amon
-Monitor shell script for snarkOS
+Monitor shell script for Aleo's snarkOS decentralized private compute node.  See http://aleo.org
+
+For more information and source for snarkOS see:  https://github.com/AleoHQ/snarkOS
 
 ## Dependencies
 
