@@ -5,7 +5,7 @@ For more information and source for snarkOS see:  https://github.com/AleoHQ/snar
 
 ## Dependencies
 
-Uses `zsh`.
+Uses `bash`.
 
 Also requires `jq` to query `json` structures to extract their contents.
 Brew info on `jq`:
@@ -21,7 +21,10 @@ On OS X use:
 $ brew install jq
 ```
 
-There's likely an `apt` equivalent on Linux, but I haven't tried it there.
+On Linux (Ubuntu) use:
+```
+$ sudo apt-get install jq
+```
 
 ## Installation
 
