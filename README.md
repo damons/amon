@@ -21,7 +21,7 @@ On OS X use:
 $ brew install jq
 ```
 
-On Linux (Ubuntu) use
+On Linux (Ubuntu) use:
 ```
 $ sudo apt-get install jq
 ```
