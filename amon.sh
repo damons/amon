@@ -1,7 +1,8 @@
 #/bin/zsh
 #
 #
-for ((;;)) { 
+while true 
+	do
 	clear; 
         printf "AMON - Monitoring snarkOS node: $1\n"
 	echo "-----------------------------------------------"
@@ -17,4 +18,4 @@ for ((;;)) {
 	printf "BLOCK COUNT:\t\t";
 	curl -s --data-binary '{"jsonrpc": "2.0", "id":"documentation", "method": "getblockcount", "params": [] }' -H 'content-type: application/json' http://$1:$2/ | jq '.result?';
 	sleep $3; 
-}
+done

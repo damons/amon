@@ -5,7 +5,7 @@ For more information and source for snarkOS see:  https://github.com/AleoHQ/snar
 
 ## Dependencies
 
-Uses `zsh`.
+Uses `bash`.
 
 Also requires `jq` to query `json` structures to extract their contents.
 Brew info on `jq`:
