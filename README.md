@@ -35,7 +35,7 @@ $ git clone https://github.com/damons/amon
 ## Usage
 
 ```
-$ ./amon.sh 10.0.1.13 3030 15
+$ ./amon.sh 50.18.246.201 3030 15
 ```
 
 Where the first argument (`10.0.1.13`) is the IP of the node and second argument, `3030` is the port of the Aleo RPC server, and the third argument,  `15` , is the number of seconds between refresh.
@@ -43,7 +43,7 @@ Where the first argument (`10.0.1.13`) is the IP of the node and second argument
 Sample output:
 
 ```
-AMON - Monitoring snarkOS node: 10.0.1.89
+AMON - Monitoring snarkOS node: 50.18.246.201
 -----------------------------------------------
 PEERS:
 [
